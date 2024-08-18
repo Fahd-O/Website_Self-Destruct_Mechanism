@@ -1,0 +1,31 @@
+.minute-adjuster {
+    margin-top: 20px;
+}
+
+.minute-adjuster label {
+    font-weight: bold;
+}
+
+.minute-adjuster input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.minute-adjuster button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.minute-adjuster button:hover {
+    background-color: #45a049;
+}
+
+.timer-display {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
