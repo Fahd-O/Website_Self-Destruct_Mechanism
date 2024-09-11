@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // Stop the interval when time is up
             if (timeLeft <= 0) {
                 clearInterval(countdownInterval);
-                document.body.style.opacity = 0;
-                document.body.style.pointerEvents = "none";
-                document.getElementById("timer").textContent = "00:00";
+                document.body.style.opacity = 1;
+                // document.body.style.pointerEvents = "none";
+                document.getElementById("timer").textContent = "00:00. Website Fadeout Test Complete !";
             }
         }, 1000);
     }
