@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostelCompass</title>
+
+    <!-- favicon icon -->
+   <link rel="icon" href="images/favicon.jpg" type="image/jpg">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+        <section class="flex">
+            <a href="index.html" class="logo"><i class="fas fa-house"></i>MyHostel</a>
+
+            <ul>
+                <li><a href="#">Post Property <i class="fas fa-paper-plane"></i></a></li>
+            </ul>
+        </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+    <section class="flex">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Buy<i class="fas fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#">Hostel</a></li>
+                    <li><a href="#">House</a></li>
+                    <li><a href="#">Flat</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Ready to move</a></li>
+                    <li><a href="#">Furnished</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sell<i class="fas fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#">Post Property</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Rent<i class="fas fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#">Hostel</a></li>
+                    <li><a href="#">House</a></li>
+                    <li><a href="#">Flat</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html#faq">FAQ</a></li>
+                </ul>
+            </li>
+        </ul>    
+    </div> 
+    
+    <ul>
+        <li><a href="#">saved <i class="far fa-heart"></i></a></li>
+        <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </li>
+    </ul>
+    </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<div class="home">
+
+    <section class="center">
+
+        <form action="search.html" method="post">
+            <h3>Find your desired home</h3>
+            <div class="box">
+                <p>Enter Location <span>*</span></p>
+                <input type="text" name="location" required maxlength="50" placeholder="Enter city name" class="input">
+            </div>
+            <div class="flex">
+                <div class="box">
+                    <p>Property Type <span>*</span></p>
+                    <select name="type" class="input" required>
+                        <option value="hostel">Hostel</option> 
+                        <option value="house">House</option>
+                        <option value="flat">Flat</option>
+                        <option value="shop">Shop</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>How many BHK <span>*</span></p>
+                    <select name="bhk" class="input" required>
+                        <option value="1">1 BHK</option>
+                        <option value="2">2 BHK</option>
+                        <option value="3">3 BHK</option>
+                        <option value="4">4 BHK</option>
+                        <option value="5">5 BHK</option>
+                        <option value="6">6 BHK</option>
+                        <option value="7">7 BHK</option>
+                        <option value="8">8 BHK</option>
+                        <option value="9">9 BHK</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Minimum Budget<span>*</span></p>
+                    <select name="minimum" class="input" required>
+                        <option value="30000">₦30K</option>
+                        <option value="40000">₦40K</option>
+                        <option value="50000">₦50K</option>
+                        <option value="60000">₦60K</option>
+                        <option value="70000">₦70K</option>
+                        <option value="80000">₦80K</option>
+                        <option value="90000">₦90K</option>
+                        <option value="100000">₦100K</option>
+                        <option value="110000">₦110K</option>
+                        <option value="120000">₦120K</option>
+                        <option value="130000">₦130K</option>
+                        <option value="140000">₦140K</option>
+                        <option value="150000">₦150K</option>
+                        <option value="160000">₦160K</option>
+                        <option value="170000">₦170K</option>
+                        <option value="180000">₦180K</option>
+                        <option value="190000">₦190K</option>
+                        <option value="200000">₦200K</option>
+                        <option value="225000">₦225k</option>
+                        <option value="250000">₦250K</option>
+                        <option value="275000">₦275k</option>
+                        <option value="300000">₦300K</option>
+                        <option value="350000">₦350K</option>
+                        <option value="400000">₦400K</option>
+                        <option value="500000">₦500K</option>
+                        <option value="1000000">₦1M</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Maximum Budget<span>*</span></p>
+                    <select name="Maximum" class="input" required>
+                        <option value="30000">₦30K</option>
+                        <option value="40000">₦40K</option>
+                        <option value="50000">₦50K</option>
+                        <option value="60000">₦60K</option>
+                        <option value="70000">₦70K</option>
+                        <option value="80000">₦80K</option>
+                        <option value="90000">₦90K</option>
+                        <option value="100000">₦100K</option>
+                        <option value="110000">₦110K</option>
+                        <option value="120000">₦120K</option>
+                        <option value="130000">₦130K</option>
+                        <option value="140000">₦140K</option>
+                        <option value="150000">₦150K</option>
+                        <option value="160000">₦160K</option>
+                        <option value="170000">₦170K</option>
+                        <option value="180000">₦180K</option>
+                        <option value="190000">₦190K</option>
+                        <option value="200000">₦200K</option>
+                        <option value="225000">₦225k</option>
+                        <option value="250000">₦250K</option>
+                        <option value="275000">₦275k</option>
+                        <option value="300000">₦300K</option>
+                        <option value="350000">₦350K</option>
+                        <option value="400000">₦400K</option>
+                        <option value="500000">₦500K</option>
+                        <option value="1000000">₦1M</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="search property" name="search" class="btn">
+        </form>
+
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+
+<!-- services section starts -->
+
+<section class="services">
+
+    <h1 class="heading">Our services</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <h3>buy house</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus et repudiandae reiciendis voluptatem, ipsam.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <h3>rent house</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus et repudiandae reiciendis voluptatem, ipsam.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <h3>sell house</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus et repudiandae reiciendis voluptatem, ipsam.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-4.png" alt="">
+            <h3>flats and buildings</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus et repudiandae reiciendis voluptatem, ipsam.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-5.png" alt="">
+            <h3>shops and malls</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus et repudiandae reiciendis voluptatem, ipsam.</p>
+        </div>
+
+        <div class="box">
+            <img src="images/icon-6.png" alt="">
+            <h3>24/7 service</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus et repudiandae reiciendis voluptatem, ipsam.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- listings section starts -->
+
+<section class="listings">
+
+    <h1 class="heading">latest listings</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="admin">
+                <h3>j</h3>
+                <div>
+                    <p>'Abdu-llah Hashim</p>
+                    <span>23-09-2023</span>
+                </div>
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>Hostel</span><span>rent</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="images/Hostel-01-ext-1.jpg" alt="image of Hostel">
+            </div>
+            <h3 class="name">Self Contain Hostel</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span> Education, School Gate, Ọyẹ-Èkìtì, Èkìtì State, Nigeria</span></p>
+            <div class="flex">
+                <p><i class="fas fa-bed"></i><span>2</span></p>
+                <p><i class="fas fa-bath"></i><span>1</span></p>
+                <p><i class="fas fa-maximize"></i><span>450sqft</span></p>
+            </div>
+            <a href="view_property.html" class="btn">View Property</a>
+        </div>
+
+        <div class="box">
+            <div class="admin">
+                <h3>j</h3>
+                <div>
+                    <p>'Abdu-llah Hashim</p>
+                    <span>23-09-2023</span>
+                </div>
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>Hostel</span><span>rent</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="images/Hostel-02-ext-1.jpg" alt="image of Hostel">
+            </div>
+            <h3 class="name">Self Contain Hostel</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span> Education, School Gate, Ọyẹ-Èkìtì, Èkìtì State, Nigeria</span></p>
+            <div class="flex">
+                <p><i class="fas fa-bed"></i><span>1</span></p>
+                <p><i class="fas fa-bath"></i><span>1</span></p>
+                <p><i class="fas fa-maximize"></i><span>100sqft</span></p>
+            </div>
+            <a href="view_property.html" class="btn">View Property</a>
+        </div>
+
+        <div class="box">
+            <div class="admin">
+                <h3>j</h3>
+                <div>
+                    <p>'Abdu-llah Hashim</p>
+                    <span>23-09-2023</span>
+                </div>
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>Hostel</span><span>rent</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="images/Hostel-03-ext.jpg" alt="image of Hostel">
+            </div>
+            <h3 class="name">Self Contain Hostel</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span> Education, School Gate, Ọyẹ-Èkìtì, Èkìtì State, Nigeria</span></p>
+            <div class="flex">
+                <p><i class="fas fa-bed"></i><span>1</span></p>
+                <p><i class="fas fa-bath"></i><span>1</span></p>
+                <p><i class="fas fa-maximize"></i><span>100sqft</span></p>
+            </div>
+            <a href="view_property.html" class="btn">View Property</a>
+        </div>
+
+    </div>
+
+    <div style="margin-top: 2rem; text-align: center;">
+        <a href="listings.html" class="inline-btn">View All</a>
+    </div>
+
+</section>
+
+<!-- listings section ends -->
+
+
+
+
+
+
+
+
+
+<!-- footer section starts -->
+
+<footer class="footer">
+
+    <section class="flex">
+
+        <div class="box">
+            <a href="tel:+2347065113200"><i class="fas fa-phone"></i><span>+2347065113200</span></a>
+            <a href="tel:+2349046462025"><i class="fas fa-phone"></i><span>+2349046462025</span></a>
+            <a href="mailto:realabiolafahad@gmail.com"><i class="fas fa-envelope"></i><span>realabiolafahad@gmail.com</span></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i><span>Ekiti, Nigeria - Oye</span></a>
+        </div>
+
+        <div class="box">
+            <a href="index.html"><span>Home</span></a>
+            <a href="about.html"><span>About</span></a>
+            <a href="contact.html"><span>Contact</span></a>
+            <a href="listings.html"><span>All listings</span></a>
+            <a href="#"><span>Saved Properties</span></a>
+        </div>
+
+        <div class="box">
+            <a href="#"><span>Facebook<i class="fab fa-facebook-f"></i></span></a>
+            <a href="#"><span>Twitter<i class="fab fa-twitter"></i></span></a>
+            <a href="#"><span>LinkedIn<i class="fab fa-linkedin"></i></span></a>
+            <a href="#"><span>Instagram<i class="fab fa-instagram"></i></span></a>
+
+        </div>
+
+    </section>
+
+    <div class="credit"><span>Abu Masjid</span> &copy; 2023 | All rights reserved</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
