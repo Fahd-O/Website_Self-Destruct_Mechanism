@@ -1,6 +1,15 @@
-body
+.fadeOut
 {
     text-align: center;
+    border: dashed medium grey;
+    margin: 50px;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+.fadeOut p
+{
+    font-size: 18px;
 }
 
 .minute-adjuster {
@@ -9,18 +18,23 @@ body
 
 .minute-adjuster label {
     font-weight: bold;
+    font-size: 18px;
 }
 
 .minute-adjuster input {
     margin-right: 10px;
     padding: 5px;
+    border-radius: .5rem;
+    border-width: thin;
+    font-size: 15px;
 }
 
 .minute-adjuster button {
-    padding: 5px 10px;
+    padding: 6px 15px;
     background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: .5rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
