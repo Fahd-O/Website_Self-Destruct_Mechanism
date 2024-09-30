@@ -2,7 +2,7 @@
 {
     text-align: center;
     border: dashed medium grey;
-    margin: 50px;
+    margin: 25px;
     border-radius: 2rem;
     padding: 10px;
 }
@@ -14,6 +14,12 @@
 
 .minute-adjuster {
     margin-top: 20px;
+}
+
+.minute-adjuster > *
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .minute-adjuster label {
