@@ -1,3 +1,10 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+ }
+
 .fadeOut
 {
     text-align: center;
@@ -13,13 +20,12 @@
 }
 
 .minute-adjuster {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
-.minute-adjuster > *
+.minute-adjuster > :nth-last-child(-n+2)
 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 .minute-adjuster label {
@@ -53,4 +59,9 @@
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+#timer
+{
+    color: #DA2C32;
 }
