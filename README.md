@@ -26,7 +26,7 @@ This project demonstrates a unique fading effect for a website. The website's op
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Fahd-O/Website_Self-Destruct_Mechanism.git
    ```
 
 2. Navigate to the project directory:
@@ -41,13 +41,13 @@ This project demonstrates a unique fading effect for a website. The website's op
 
 ```bash
 fading-website/
-├── index.html        # Main HTML file
-├── css/styles.css        # Styling for the website
+├── index.html             # Main HTML file
+├── css/styles.css         # Styling for the website
 ├── css/fadeOut.css        # Styling for the fade out effect
-├── images/            # Contains img used in the website
-├── js/fadeOut.js        # JavaScript functionality
-├── js/script.js        # JavaScript for the fade out effect
-└── README.md         # Project documentation
+├── images/                # Contains img used in the website
+├── js/fadeOut.js          # JavaScript functionality
+├── js/script.js           # JavaScript for the fade out effect
+└── README.md              # Project documentation
 ```
 
 ## Demo
