@@ -1,0 +1,23 @@
+{
+    "name" : "Fading Website",
+    "short_name" : "Fading Website",
+    "start_url":"/",
+    "display" : "standalone",
+    "background_color" : "#666",
+    "theme_color" : "#DA2C32",
+    "orientation" : "portrait-primary",
+    "icons" : [
+        {
+            "src" : "/images/icon-192x192.png",
+            "type" : "image/png",
+            "sizes" : "192x192",
+            "purpose" : "any maskable"
+        },
+        {
+            "src" : "/images/icon-192x192.png",
+            "type" : "image/png",
+            "sizes" : "512x512",
+            "purpose" : "any maskable"
+        }
+    ]
+}
