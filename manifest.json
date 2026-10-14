@@ -4,7 +4,7 @@
     "start_url":"/",
     "display" : "standalone",
     "background_color" : "#666",
-    "theme_color" : "#DA2C32",
+    "theme_color" : "#303030",
     "orientation" : "portrait-primary",
     "icons" : [
         {
@@ -14,7 +14,7 @@
             "purpose" : "any maskable"
         },
         {
-            "src" : "/images/icon-192x192.png",
+            "src" : "/images/icon-512x512.png",
             "type" : "image/png",
             "sizes" : "512x512",
             "purpose" : "any maskable"
